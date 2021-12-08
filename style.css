@@ -1,0 +1,133 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+body{
+  padding: 10px;
+  margin: 0;
+  margin-top: 10px;
+  background-color: rgb(70, 64, 57);
+}
+
+#novo{
+  margin-bottom: 3px;
+  background-color: tomato;
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+  border:none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.inicio{
+  width: 100%;
+  height: 100%;
+  background-image: url(imagens/fundoCorrida.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instrucoes{
+  width: 60%;
+  color: whitesmoke;
+  border: solid white;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-flex;
+  background-color: rgba(61, 59, 59, 0.8);
+  
+}
+
+#botao{
+  height: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: tomato;
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+  border:none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.container{
+  margin-top: 30px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+.bloco{
+  box-sizing: border-box;
+  background-color: #acacac;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.faixa{
+  border: solid;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#pri{
+  border: solid;
+  padding: 10px;
+  background-color: yellow;
+  border-left: none;
+  border-right: none;  
+}
+
+#seg{
+  width: 100px;
+  border: solid;
+  padding: 10px;
+  margin-top: 2px;
+  background-color: yellow;
+  animation: changeMod linear infinite 1s;
+}
+
+span{
+  padding: 5px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: solid white;
+  border-top: none;
+  border-bottom: none;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+@keyframes changeMod{
+
+  0%{margin-right: 0%;}
+  10%{margin-right: 10%;}
+  20%{margin-right: 20%;}
+  30%{margin-right: 30%;}
+  40%{margin-right: 40%;}
+  50%{margin-right: 50%;}
+  60%{margin-right: 60%;}
+  70%{margin-right: 70%;}
+  80%{margin-right: 80%;}
+  90%{margin-right: 90%;}
+  100%{margin-right: 100%;}
+
+}

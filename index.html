@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>projeto corrida</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+   <body id="body">
+     <button id="novo">Novo jogo</button>
+      <div class="bloco">
+        <div style="justify-content: space-around; display: flex;">
+            <span>10m</span>
+            <span>20m</span>
+            <span>30m</span>
+            <span>40m</span>
+            <span>50m</span>
+            <span>Fim</span>
+        </div>
+
+        <div class="container">
+          <div>
+            <p id="jog1">Jogador 1</p>
+            <img id="carro1" src="../projetocorrida/imagens/carro2.jpg" width="130px">
+          </div>
+          <div id="pri"> </div> 
+          <div style="display: flex; justify-content: flex-end;">
+            <div id="seg"> </div>
+          </div>
+
+
+          <div>
+            <p id="jog2">Jogador 2</p>
+            <img id="carro2" src="../projetocorrida/imagens/carro1.jpg" width="140px">
+          </div>
+        </div>
+      </div>
+
+      <div class="inicio">
+        <div class="instrucoes">
+          <h2>Instruções do jogo:<br><br>
+            <p>Jogador 1 - precione a tecla 'z' para mover o carro.</p>
+            <p></p>Jogador 2 - precione a tecla 'm' para mover o carro.</p>
+            <p>O primerio a atingir a linha de chegada é o ganhador!</p>
+          </h2>
+        </div>
+          <button id="botao">Start Game</button>
+      </div>
+      </div>
+
+      <script src="function.js"></script>
+      
+  </body>
+</html>
