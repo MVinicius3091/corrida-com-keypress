@@ -37,7 +37,7 @@ body.addEventListener('keydown', function(e){
 
 function vitoria(final, vencedor){
 
-  if(final > 1180){
+  if(final > 1080){
    alert('O vencedor foi o ' + vencedor);
   }
 
