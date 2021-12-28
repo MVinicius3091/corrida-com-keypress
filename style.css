@@ -116,6 +116,27 @@ span{
   margin-bottom: 0;
 }
 
+.progress{
+  width: 80%;
+  height: 20px;
+  background-color: #acacac;
+  position: absolute;
+  border-radius: 10px;
+  text-align: end;
+  bottom: 20px;
+  left: 90px;
+  display: none;
+}
+
+.progress-bar{
+  height: 20px;
+  background-color: tomato;
+  border-radius: 10px;
+  padding-right: 3px;
+  color: white;
+}
+
+
 @keyframes changeMod{
 
   0%{margin-right: 0%;}
@@ -130,4 +151,25 @@ span{
   90%{margin-right: 90%;}
   100%{margin-right: 100%;}
 
+}
+
+@media screen and (max-width: 700px) {
+  .instrucoes{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .instrucoes p{
+    font-size: 1rem;
+  }
+  .instrucoes h2{
+    font-size: 1rem;
+  }
+
+  #botao{
+    height: 40px;
+    padding: 5px;
+    font-size: 1rem;
+  }
 }
